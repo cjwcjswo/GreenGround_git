@@ -1,0 +1,10 @@
+/* header */
+#header{background-color: pink; z-index:30; position:fixed}
+#header.no_fixed{position:relative;}
+#header .logo a{float: left; width: 200px; height: 100px; margin: 25px 0 25px 50px;  background: url(../image/logo.png) no-repeat 0 0;}
+#header .gnb{float: right; padding-right: 50px;}
+#header .gnb .mm{float: left; }
+#header .gnb .mm.on .mmbtn{color:#00c43b}
+#header .gnb .mm .mmbtn{display: block; padding: 80px 15px 22px; color: #45494e;  font: 700 16px/50px "NanumGothic",sans-serif; text-align: center; text-decoration: none;}
+#header .gnb .mm:hover .mmbtn{color:#00c43b}
+

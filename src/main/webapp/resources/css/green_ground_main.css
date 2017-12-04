@@ -1,0 +1,200 @@
+/* reset */
+@font-face{
+        font-family:NanumGothic; 
+            src:url(../fonts/NanumGothic.eot); 
+            src:url(../fonts/NanumGothic.eot?#iefix) format('embedded-opentype'),
+                url(../fonts/NanumGothic.woff) format('woff'),
+                url(../fonts/NanumGothic.ttf) format('truetype')
+        }
+html,body{width:100%;height:100%;margin:0;padding:0;}
+body,p,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,th,td,form,fieldset,legend,input,textarea,button,select{margin:0;padding:0}
+body,h1,h2,h3,h4,h5,h6,input,textarea,select,button,table{font-family:Nanumgothic,"Trebuchet MS","Helvetica Neue",Helvetica,sans-serif;font-size:12px}
+img,fieldset{border:0}
+img{vertical-align:top}
+ul,ol{list-style:none}
+em,address{font-style:normal}
+.blind,legend{display:block;position:absolute;left:0;top:-9999em;overflow:hidden}
+table{border-collapse:collapse}
+caption{position:absolute;left:0;top:-9999em;overflow:hidden;height:0;width:0;font-size:0;line-height:0}
+hr{display:none}
+a{text-decoration:none}
+a:hover,a:active,a:focus{text-decoration:underline}
+.skip-navigation a{position: absolute; z-index: 999; left:0; top:-999em; display: block;width: 100%;background-color: #00f; color: #fff; font:800 12px/24px verdana,sans-serif; text-align: center}
+.skip-navigation a:focus{top: 0}
+.clearfix{*zoom: 1; text-align:center;}
+.clearfix:after{content: '';display: block; clear: both}
+
+/*style*/
+body{background-color:#ECF0F1;}
+.navbar-inverse {background-color: #434d6c;}
+.navbar {position: relative;
+    min-height: 50px;
+    margin-bottom: 20px;
+    border: 0px solid transparent;
+}
+.btn-default {
+    color: #333;
+    background-color: #009688;
+    border-color: #009688;
+    border-radius:0px;
+    color:#fff;
+}
+#blog-section{margin-top:40px;margin-bottom:80px; padding: 0 5%;}
+.content-title{padding:5px;background-color:#fff;}
+.content-title h3 a{color:#434d6c;text-decoration:none; transition: 0.5s;}
+.content-title h3 a:hover{color:#F39C12; }
+.content-footer{background-color:#434d6c;padding:10px;position: relative;}
+.content-footer span a {display: inline-block; padding: 6px 5px; color: #fff; text-decoration: none; transition: 0.5s;}
+.content-footer span a:hover{color:#F39C12;}
+.box{
+    margin-top: 30px;
+    -webkit-box-shadow: 1px 4px 16px 3px rgba(199,197,199,1);
+	-moz-box-shadow: 1px 4px 16px 3px rgba(199,197,199,1);
+	box-shadow: 1px 4px 16px 3px rgba(199,197,199,1);
+}
+.box img{width:100%;}
+.box .content-footer>img {width: 33px; height: 33px; margin-right: 10px; border-radius: 100%; border: 2px solid #fff;}
+.box .content-footer .user-small-img{}
+.box .content-footer .name{line-height: 33px; }
+.box .content-footer .pull-right .fa-users{padding-right: 6px;}
+.user-full-ditels h3 {
+    color: #fff;
+    display: block;
+    margin: 0px;
+    padding-top: 10px;
+    padding-right: 28px;
+    text-align: right;
+}
+.user-full-ditels p{    
+    color: #fff;
+    display: block;
+    margin: 0px;
+     padding-right: 20px;
+    padding-top: 5px;
+   text-align: right;
+}
+.social-icon {
+    background-color: #fff;
+    margin-top: 10px;
+    padding-right: 20px;
+    text-align: right;
+}
+.social-icon>a{font-size:20px;text-decoration:none;padding: 5px;}
+.social-icon a:nth-of-type(1){color:#4E71A8;}
+.social-icon a:nth-of-type(2){color:#3FA1DA;}
+.social-icon a:nth-of-type(3){color:#E3411F;}
+.social-icon a:nth-of-type(4){color:#CA3737;}
+.social-icon a:nth-of-type(5){color:#3A3A3A;}
+
+
+/* �삤瑜몄そ */
+.widget-sidebar {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.title-widget-sidebar {
+    font-size: 14pt;
+    border-bottom: 2px solid #e5ebef;
+    margin-bottom: 15px;
+    padding-bottom: 10px;    
+    margin-top: 0px;
+}
+
+.title-widget-sidebar:after {
+    border-bottom: 2px solid #f1c40f;
+    width: 150px;
+    display: block;
+    position: absolute;
+    content: '';
+    padding-bottom: 10px;
+}
+.recent-post{width: 100%; height: 80px; list-style-type: none;}
+.recent-post .post-img img {width: 30%; height: 70px; float: left; margin-right: 15px; border: 5px solid #434d6c; transition: 0.5s;}
+.recent-post .post-desc{display: block; width: 100%; height: 69px; padding: 3% 0; font-size: 13px;}
+.recent-post .post-desc .tle {display: block; overflow: hidden; width: 60%; text-overflow: ellipsis; white-space: nowrap; font-size: 14px; font-weight: bold; transition: 0.5s;}
+.recent-post .post-desc .tle a{text-decoration: none; color:#000;}
+.recent-post .post-desc .date{padding: 2% 0;}
+.recent-post .post-desc .date .fa-calendar{padding-right: 1.5%; font-size: 14px; color: #434d6c;}
+.tooltip{white-space: pre-line; width:150px; z-index:999}
+/* 버튼 */
+
+#button{  background: -webkit-linear-gradient(90deg, #16222A 10%, #3A6073 90%); /* Chrome 10+, Saf5.1+ */
+  background:    -moz-linear-gradient(90deg, #16222A 10%, #3A6073 90%); /* FF3.6+ */
+  background:     -ms-linear-gradient(90deg, #16222A 10%, #3A6073 90%); /* IE10 */
+  background:      -o-linear-gradient(90deg, #16222A 10%, #3A6073 90%); /* Opera 11.10+ */
+  background:         linear-gradient(90deg, #16222A 10%, #3A6073 90%); /* W3C */
+        }
+.parent2 {
+  bottom:100px;
+  right:100px;
+  position:fixed;
+ display:block;
+  width:100px;
+  height:100px;
+  background-color:transparent;
+  border-radius:50%;
+  z-index:20;
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+}
+.delBtn {
+  width:60%;
+  height:60%;
+  background-color:dimGray;
+  border-radius:50%;
+  position:absolute;
+  color:white;
+  text-align:center;
+  line-height:70px;
+    top:25%;
+  left:25%;
+  cursor:pointer;
+  transition: all 500ms cubic-bezier(0.680, -0.550, 0.265, 1.550);
+    position:absolute;
+}
+.joinBtn {
+  width:60%;
+  height:60%;
+  background-color:dimGray;
+  border-radius:50%;
+  position:absolute;
+  color:white;
+  text-align:center;
+  line-height:70px;
+    top:25%;
+  left:25%;
+  cursor:pointer;
+  transition: all 500ms cubic-bezier(0.680, -0.550, 0.265, 1.550) .2s;
+}
+.createBtn {
+  width:60%;
+  height:60%;
+  background-color:dimGray;
+  border-radius:50%;
+  position:absolute;
+  color:white;
+  text-align:center;
+  line-height:70px;
+    top:25%;
+  left:25%;
+  cursor:pointer;
+  transition: all 500ms cubic-bezier(0.680, -0.550, 0.265, 1.550) .4s;  
+}
+.homeBtn {
+  bottom: 100px;
+  right: 100px;
+  width:100px;
+  height:100px;
+  background:darkSlateGray;
+  border-radius:50%;
+  position:absolute;
+  z-index:21;
+  color:white;
+  text-align:center;
+  line-height:120px;
+  cursor:pointer;
+  position:fixed;
+}

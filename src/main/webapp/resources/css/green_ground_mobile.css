@@ -1,0 +1,122 @@
+/* reset */
+@font-face{
+        font-family:NanumGothic; 
+            src:url(../fonts/NanumGothic.eot); 
+            src:url(../fonts/NanumGothic.eot?#iefix) format('embedded-opentype'),
+                url(../fonts/NanumGothic.woff) format('woff'),
+                url(../fonts/NanumGothic.ttf) format('truetype')
+        }
+html,body{width:100%;height:100%;margin:0;padding:0;}
+body,p,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,th,td,form,fieldset,legend,input,textarea,button,select{margin:0;padding:0}
+body,h1,h2,h3,h4,h5,h6,input,textarea,select,button,table{font-family:Nanumgothic,"Trebuchet MS","Helvetica Neue",Helvetica,sans-serif;font-size:12px}
+img,fieldset{border:0}
+img{vertical-align:top}
+ul,ol{list-style:none}
+em,address{font-style:normal}
+.blind,legend{display:block;position:absolute;left:0;top:-9999em;overflow:hidden}
+table{border-collapse:collapse}
+caption{position:absolute;left:0;top:-9999em;overflow:hidden;height:0;width:0;font-size:0;line-height:0}
+hr{display:none}
+a{text-decoration:none}
+a:hover,a:active,a:focus{text-decoration:underline}
+.skip-navigation a{position: absolute; z-index: 999; left:0; top:-999em; display: block;width: 100%;background-color: #00f; color: #fff; font:800 12px/24px verdana,sans-serif; text-align: center}
+.skip-navigation a:focus{top: 0}
+.clearfix{*zoom: 1; text-align:center;}
+.clearfix:after{content: '';display: block; clear: both}
+
+/*style*/
+
+/* container */
+#container{}
+video{object-fit: fill; }
+.con-join{margin:0;padding:0;background-color:#fff}
+.con-join .left{padding:0; margin:0; height:1000px}
+.con-join .video-bg{position:absolute; width:100%;}
+.con-join .video-content{position:absolute; padding:20% 10% 20% 10%; background-color: rgba(0, 0, 0, 0.25); width:100%; height:100%}
+.con-join .left .head{display: block; font:900 60px/1.1 Nanumgothic,"Trebuchet MS","Helvetica Neue",Helvetica,sans-serif; color:#fff; text-align: left;}
+.con-join .left .desc{display: block; padding-top: 40px; font:400 20px/1.1 Nanumgothic,"Trebuchet MS","Helvetica Neue",Helvetica,sans-serif; color: #fff; text-align: left;}
+.con-join .left .under{display: block; padding-top: 40px; font-size: 40px; text-align: left; color: #fff;}
+
+/* 회원가입 */
+.con-join .right{z-index:999;padding: 200px 50px 0; position:fixed; right:0; background-color:white; height:1115px;transition: All 0.8s ease; -webkit-transition: All 0.8s ease; -moz-transition: All 0.8s ease; -o-transition: All 0.8s ease;}
+.con-join .right .tle{display: block; font:600 20px/1.1 Nanumgothic,"Trebuchet MS","Helvetica Neue",Helvetica,sans-serif; text-align: left; }
+.con-join .right .or{display: block; padding-top: 8px; font:400 Nanumgothic,"Trebuchet MS","Helvetica Neue",Helvetica,sans-serif; text-align: left;}
+.con-join .right .form{}
+.con-join .right .form fieldset{}
+.con-join .right .form fieldset .field{overflow: hidden; margin-top: 10px; border: 1px solid #aaa;}
+.con-join .right .form fieldset .field .inp-field{width: 100%; height: 35px; margin: 5px 5px 5px 10px; border: 0 none; color: #8e8e8e; font-size: 14px; line-height: 28px;}
+.con-join .right .form fieldset .btn-area{position:relative; margin: 5px 0}
+.con-join .right .form fieldset .btn-area .ggLogo{display: block; position: absolute; width: 25px; height: 25px; background: url(../image/ggLogo.png) no-repeat 0 0; text-indent: -999em; top: 50%; left: 80px; margin-top: -8px; }
+.con-join .right .form fieldset .btn-area .naverLogo{display: block; position: absolute; width: 25px; height: 25px; background: url(../image/naverLogo.png) no-repeat 0 0; text-indent: -999em; top: 50%; left: 80px; margin-top: -12px; }
+.con-join .right .form fieldset .btn-area .facebookLogo{display: block; position: absolute; width: 25px; height: 25px; background: url(../image/facebookLogo.png) no-repeat 0 0; text-indent: -999em; top: 50%; left: 80px; margin-top: -12px; }
+.con-join .right .form fieldset .btn-area .btn-submit{width: 100%; height: 40px; border: 0 none; color: #8e8e8e; font-size: 15px; line-height: 28px;}
+.con-join .right .form fieldset .btn-area .btn-submit.gg{color: #fff; background-color:#aaa }
+.con-join .right .form fieldset .btn-area .btn-submit.gg:hover{background-color: #888}
+.con-join .right .form fieldset .btn-area .btn-submit.naver{color: #fff;background-color: #00c43b}
+.con-join .right .form fieldset .btn-area .btn-submit.naver:hover{background-color: #2db400 }
+.con-join .right .form fieldset .btn-area .btn-submit.facebook{color: #fff;background-color: #354c7c}
+.con-join .right .form fieldset .btn-area .btn-submit.facebook:hover{background-color:#022954 }
+
+/* 로그인 */
+.con-login .right{padding: 200px 50px 0; position:fixed; right:0; background-color:white; height:1115px;transition: All 0.8s ease; -webkit-transition: All 0.8s ease; -moz-transition: All 0.8s ease; -o-transition: All 0.8s ease;}
+.con-login .right .tle{display: block; font:600 20px/1.1 Nanumgothic,"Trebuchet MS","Helvetica Neue",Helvetica,sans-serif; text-align: left; }
+.con-login .right .or{display: block; padding-top: 8px; font:400 Nanumgothic,"Trebuchet MS","Helvetica Neue",Helvetica,sans-serif; text-align: left;}
+.con-login .right .form{}
+.con-login .right .form fieldset{}
+.con-login .right .form fieldset .field{overflow: hidden; margin-top: 10px; border: 1px solid #aaa;}
+.con-login .right .form fieldset .field .inp-field{width: 100%; height: 35px; margin: 5px 5px 5px 10px; border: 0 none; color: #8e8e8e; font-size: 14px; line-height: 28px;}
+.con-login .right .form fieldset .btn-area{position:relative; margin: 5px 0}
+.con-login .right .form fieldset .btn-area .ggLogo{display: block; position: absolute; width: 25px; height: 25px; background: url(../image/ggLogo.png) no-repeat 0 0; text-indent: -999em; top: 50%; left: 80px; margin-top: -8px; }
+.con-login .right .form fieldset .btn-area .naverLogo{display: block; position: absolute; width: 25px; height: 25px; background: url(../image/naverLogo.png) no-repeat 0 0; text-indent: -999em; top: 50%; left: 80px; margin-top: -12px; }
+.con-login .right .form fieldset .btn-area .facebookLogo{display: block; position: absolute; width: 25px; height: 25px; background: url(../image/facebookLogo.png) no-repeat 0 0; text-indent: -999em; top: 50%; left: 80px; margin-top: -12px; }
+.con-login .right .form fieldset .btn-area .btn-submit{width: 100%; height: 40px; border: 0 none; color: #8e8e8e; font-size: 15px; line-height: 28px;}
+.con-login .right .form fieldset .btn-area .btn-submit.gg{color: #fff; background-color:#aaa }
+.con-login .right .form fieldset .btn-area .btn-submit.gg:hover{background-color: #888}
+.con-login .right .form fieldset .btn-area .btn-submit.naver{color: #fff;background-color: #00c43b}
+.con-login .right .form fieldset .btn-area .btn-submit.naver:hover{background-color: #2db400 }
+.con-login .right .form fieldset .btn-area .btn-submit.facebook{color: #fff;background-color: #354c7c}
+.con-login .right .form fieldset .btn-area .btn-submit.facebook:hover{background-color:#022954 }
+
+
+#container {}
+#con-intro1 {margin: 0 auto; padding: 160px 0 150px; background-color: #fff; text-align: center;}
+#con-intro1 .tle { color: #262724; font-family: Nanumgothic,"Trebuchet MS","Helvetica Neue",Helvetica,sans-serif; font-size: 50px; font-weight: 400; line-height: 1.5;}
+#con-intro1 .desc { margin-bottom: 40px; color: #bbbdba; font-family: Nanumgothic,"Trebuchet MS","Helvetica Neue",Helvetica,sans-serif; font-size: 16px; letter-spacing: 2px; line-height: 2.4;}
+#con-intro1 .step {}
+#con-intro1 .step li { float: left; width: 33.3333%;}
+#con-intro1 .step li h3 { color: #262724;	font-family: Nanumgothic,"Trebuchet MS","Helvetica Neue",Helvetica,sans-serif; font-size: 30px;	font-weight: 400; line-height: 2.5;}
+#con-intro1 .step li h3 span { display: block; width: 110px; height: 110px; margin: 0 auto; border: 2px solid #008c2a; border-radius: 50%; color: #008c2a; font-family: Nanumgothic,"Trebuchet MS","Helvetica Neue",Helvetica,sans-serif; font-size: 35px; line-height: 110px;}
+#con-intro1 .step li p { padding: 0 30px; color: #7d7d7d; font-family: Nanumgothic,"Trebuchet MS","Helvetica Neue",Helvetica,sans-serif; font-size: 16px; line-height: 1.5;}
+
+.con-intro2 { padding: 160px 0; background: url(../image/meeting1.jpg) no-repeat fixed 50% 0; opacity: .8; text-align: center;}
+.con-intro2 .desc { margin-bottom: 30px; color: #000; font-family: Nanumgothic,"Trebuchet MS","Helvetica Neue",Helvetica,sans-serif; font-size: 32px; font-weight: 900; line-height: 1.5;}
+.con-intro2 .btn_contact { display: inline-block; padding: 0 34px; border: 2px solid #008c2a; border-radius: 20px; background-color: #008c2a; color: #fff; font-family: Nanumgothic,"Trebuchet MS","Helvetica Neue",Helvetica,sans-serif; line-height: 37px;}
+.con-intro2 .btn_contact:hover { border-color: #3b3b3b; background-color: #3b3b3b; color: #fff; text-decoration: none;}
+
+.developer {padding: 60px 0 80px; background-color: #00bd39;}
+.developer .inn {margin: 0 auto;}
+.developer .tle { margin-bottom: 34px; color: #fff; font-size: 36px; font-weight: 300; text-align: center; text-transform: uppercase; line-height: 70px;}
+.developer .developer-content { color: #fff;}
+.developer .left { float: left; margin-left:10%;}
+.developer .left h3 { margin-bottom: 20px; font-size: 18px; font-weight: 600; text-transform: uppercase; line-height: 28px;}
+.developer .left .txt { width: 470px; margin-bottom: 50px; font-size: 14px;	font-weight: 300; line-height: 1.8;}
+.developer .left .btn a { display: inline-block; border: 1px solid #fff; padding: 0 24px; color: #fff; font-size: 14px; font-weight: 700; text-transform: uppercase; text-decoration: none; line-height: 58px;}
+.developer .left .btn a:hover { border-color: #3b3b3b; background-color: #3b3b3b;}
+.developer .right {	position: relative;	float: right; margin-right:10%;}
+.developer .right .slider-item {}
+.developer .right .slider-item li {display: none;width: 100%;background-color: #008c2a;}
+.developer .right .slider-item li.active {display: block;}
+.developer .right .slider-item li .profile {display: block;position: relative;padding: 50px 0 25px 78px;}
+.developer .right .slider-item li .profile .profile-img {display: block;float: left;margin-right: 24px;}
+.developer .right .slider-item li .profile .profile-img img {border-radius: 50%;}
+.developer .right .slider-item li .profile strong {display: block;padding-top: 25px;margin-bottom: 10px;font-size: 18px;font-weight: 600;line-height: 24px; text-align: left;}
+.developer .right .slider-item li .profile small {display: block; font-size: 14px;font-weight: 400; text-align: left;}
+.developer .right .slider-item li .profile .bar {position: absolute;left: 210px;top: 135px;width: 36px;height: 2px;background-color: #aaa;}
+.developer .right .slider-item li .txt {padding: 0 140px 40px 78px;	font-size: 14px;font-weight: 300;font-style: italic;line-height: 1.6;}
+.developer .right .slider-btn {}
+.developer .right .slider-btn li {position: absolute;top: 130px;}
+.developer .right .slider-btn li.prev {left: 20px;}
+.developer .right .slider-btn li.next {right: 20px;}
+.developer .right .slider-btn li a {display: block;text-decoration: none;}
+.developer .right .slider-btn li a i {display: block;color: #434d6c;font-size: 50px;line-height: 1em;}
+.developer .right .slider-btn li a:hover i {color: #3868a3;}

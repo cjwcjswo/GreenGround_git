@@ -1,0 +1,43 @@
+/* footer */
+#footer {margin:0;padding:0;}
+#footer .bottom {background-color: #434d6c; padding-left:10%; padding-right:10%;}
+#footer .bottom .inn {position: relative; margin:auto;}
+#footer .bottom dl {float: left;color: #fff; margin:2.5%}
+/* #footer .bottom dl.first {margin-left: 12.5%;} */
+#footer .bottom dl.last {background: url("http://placehold.it/108x108.jpg") no-repeat 50% 50%;height:200px}
+#footer .bottom dt {position: relative; margin-bottom:15%}
+#footer .bottom dt strong {display: block; text-align: left; font-size: 18px;font-weight: 400;text-transform: uppercase;}
+#footer .bottom dt .bar {position: absolute; left: 0; top: 28px; width: 36px; height: 2px; background-color: #aaa;}
+#footer .bottom dd .txt {display: block; text-align: left; margin-bottom: 10px;font-size: 14px;font-weight: 400;line-height: 1.8;}
+#footer .bottom dd .sns {}
+#footer .bottom dd .sns li {float: left;margin-right: 12px;}
+#footer .bottom dd .sns li a {display: block;width: 36px;height: 36px;border: 1px solid #3b3b3b;border-radius: 50%;color: #3b3b3b; text-align: center; text-decoration: none;}
+#footer .bottom dd .sns li a:hover {background-color: #fff;}
+#footer .bottom dd .sns li a i {display: block;font-size: 18px;line-height: 36px;}
+#footer .bottom dd .sns li a:hover i {color: #0c345f;}
+#footer .bottom dd .quick {}
+#footer .bottom dd .quick li {float: left;width: 46%;}
+#footer .bottom dd .quick li a {display: block; text-align: left; color: #fff;	font-size: 14px;line-height: 30px;}
+#footer .bottom dd .quick li a:hover {color: #00bd39;}
+#footer .bottom dd address {font-size: 14px;}
+#footer .bottom dd address p {display: block; text-align: left; margin-bottom: 20px;line-height: 24px;}
+#footer .bottom dd address p i {float: left;width: 26px;margin-right: 16px;color: #3b3b3b;font-size: 24px;}
+#footer .bottom dd address p.address i { margin: 10px 16px 10px 0;}
+#footer .bottom dd address p.tel {font-size: 18px;}
+#footer .bottom dd address p a {display: block; text-align: left; color: #fff;text-decoration: none;}
+#footer .bottom dd address p a:hover {color: #00bd39;}
+#footer .bottom dd .txt small {color: #fff;	text-transform: uppercase;}
+#footer .bottom dd .form-email {}
+#footer .bottom dd .form-email .inp-field {	float: left;width: 200px;height: 46px;border: 1px solid #d7d7d7;border-width: 0 0 1px 0;background-color: #fff;	color: #aaa;font-family: Nanumgothic,"Trebuchet MS","Helvetica Neue",Helvetica,sans-serif;font-size: 18px;font-weight: 300;text-indent: 15px;line-height: 44px;}
+#footer .bottom dd .form-email .btn-submit {float: left;height: 46px;border: 1px solid #3d3d3d;padding: 0 14px;	background-color: #3d3d3d;color: #fff;font-family: Nanumgothic,"Trebuchet MS","Helvetica Neue",Helvetica,sans-serif;font-size: 14px;font-weight: 400;text-transform: uppercase;	line-height: 44px;	cursor: pointer;}
+#footer .bottom .validator {display: block; width: 88px; height: 33px; background: url(../image/w3c.png) no-repeat 0 0/cover; position: absolute; right: 5%; bottom: 20px; text-indent: -9999em;}
+#footer .bottom .top {position: fixed;right: 40px;bottom: 40px;width: 50px;text-align: center;}
+#footer .bottom .top a {display: block;border-radius: 50%; background-color: #000;
+	color: #fff;text-decoration: none;}
+#footer .bottom .top a:hover {background-color: #2e639b;}
+#footer .bottom .top a i {display: block;line-height: 50px;}
+#footer .copy {	padding: 16px 0; background-color: #3b3b3b; color: #fff; font-size: 14px;
+	font-weight: 400; text-align: center;}
+#footer .copy a { color: #fff; text-decoration: none;}
+#footer .copy a:hover { color: #00bd39;}
+/* //footer */
